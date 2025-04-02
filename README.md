@@ -57,7 +57,7 @@ services:
        environment:
            TRUST_SUB: "10.0.70.0/24"
            GUEST_SUB: "10.0.71.0/24"  
-           HOME_SUB: "192.168.88.0/24"
+           HOME_SUB: "10.0.0.0/24"
        volumes:
            - ./pki:/etc/openvpn/pki
            - ./clients:/etc/openvpn/clients
